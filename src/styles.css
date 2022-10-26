@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tile {
+  @apply flex justify-center items-center min-w-fit;
+}
+
+.tile-marker {
+  @apply text-4xl;
+}
